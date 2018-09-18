@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>signing up</title>
+    </head>
+    <body>
+        <p>Sign Up</p>
+        <form action="/action_page.php" target="_blank" method="POST"> 
+            <fieldset>
+                <legend>Personal Information</legend>
+                Name:<br>
+                <input type="text" name="fname" placeholder="first name">
+                <input type="text" name="lname" placeholder="last name"><br>
+                Gender:<br>
+            <select name="Gender">
+                <option value="male" selected>Male</option><br>
+                <option value="female">Female</option><br>
+                <option value="other">Other</option><br>
+            </select>
+            </fieldset>
+            <fieldset>
+                <legend>Organisation Details</legend>
+                <input type="text" name="name" placeholder=" Business Name"><br>
+                <input type="text" name="address" placeholder="Address"><br>
+                <textarea name="message" rows="15" cols="20">Briefly Describe the your business and the type of design you do.</textarea><br><br>
+                Contact:<br>
+                <input type="number" name="number" placeholder="Phone Number"><br>
+                <input type="email" name="email" placeholder="Official Email Address"><br>
+        
+                
+            </fieldset>
+            <fieldset>
+                <legend>Account Details</legend>
+                <input type="text" name="username" placeholder="sername"><br>
+                <input type="password" name="username" placeholder="Password"><br><br>
+                <input type="submit" value="Submit">
+                <input type="reset">
+            </fieldset>
+
+        </form>
+    </body>
+</html>
