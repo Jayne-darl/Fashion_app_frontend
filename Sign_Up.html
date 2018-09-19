@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>signing up</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Sign Up</h1>
+        <p><em>Please fill the form below to create an account.</p></em></p>
+        <form action="/action_page.php" method="POST" style="border:1px solid #ccc">
+            <fieldset>
+                <legend>
+                    <h3>Personal Information</h3>
+                </legend>
+                <label for="name"><b>Name:</b></label><br>
+                <input type="text" name="fname" placeholder="First Name">
+                <input type="text" name="lname" placeholder="Last Name" required><br><br>
+                <label for="gender"><b>Gender:</b></label>
+                <select name="Gender">
+                    <option value="male" selected>Male</option><br>
+                    <option value="female">Female</option><br>
+                    <option value="other">Other</option><br>
+                </select><br><br>
+                <label for="phone number"><b>Phone Number:</b></label><input type="number" name="number" placeholder="Enter Phone Number"
+                    required><br><br>
+                <label for="email"><b>Email Address:</b></label> <input type="email" name="email" placeholder="Enter Email"
+                    required><br>
+            </fieldset><br>
+            <fieldset>
+                <legend>
+                    <h3>Account Details</h3>
+                </legend>
+                <label for="username"><b>Username:</b></label><input type="text" name="username"><br><br>
+                <label for="psw"><b>Password:</b></label><input type="password" name="psw" placeholder="Enter Password"
+                    required><br><br>
+                <label for="psw-repeat"><b>Repeat Password:</b></label>
+                <input type="password" name="psw-repeat" placeholder="Repeat Password" required><br><br>
+                <label><input type="checkbox" name="remember" style="margin-bottom:15px" checked>Remember me</label>
+            </fieldset><br>
+            <hr>
+            <h2><strong>Fashion Designers only</strong></h2>
+            <fieldset>
+                <legend>
+                    <h3>Organisation Details</h3>
+                </legend>
+                <label for="name"><b>Busineses Name:</b></label><input type="text" name="name" required><br><br>
+
+
+                <label for="address"><b>Business Address:</b></label><input type="text" name="address" required><br><br>
+                <label for="phone number"><b>Phone Number:</b></label><input type="number" name="number" placeholder="Enter Official Number"
+                    required><br><br>
+                <label for="email"><b>Email Address:</b></label> <input type="email" name="email" placeholder="Enter Official Email"
+                    required><br><br>
+                <textarea name="message" rows="15" cols="50" required>Briefly Describe your business and the type of design you do. </textarea><br>
+                <p><i>Is your business registered?</i></p>
+                <label><input type="checkbox" name="yes" checked>Yes</label><br>
+                <label><input type="checkbox" name="no">No</label><br>
+                <P>If Yes.</P>
+                <label for="number"><b>Business Registration Number:</b></label><input type="text" name="number"><br><br>
+
+
+
+            </fieldset><br><br>
+
+            <p>By creating an account you agree to our <a href="#" style="color: dodgerblue">Terms and Privacy</a></p>
+            <div class="clearfix">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <button type="button" class="signupbtn">Sign Up</button>
+            </div>
+    </div>
+    <!--- <input type="submit" value="Submit">
+        <input type="reset"> Another way of using button--->
+    </form>
+</body>
+
+</html>
