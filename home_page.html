@@ -10,70 +10,145 @@
 </head>
 
 <body>
-    <header>
-        <div>
-            <ul>
-                <li>Article</li>
-                <a href="#contact">
-                    <li>Contact Us</li>
-                </a>
-                <li>Privacy</li>
-                <li>Terms</li>
-            </ul>
+    <div class="body">
+
+        <header id="header">
+            <div class="heading-div">
+                <ul class="headings">
+                    <a href="#article">
+                        <li class="article">Article</li>
+                    </a>
+                    <a href="#contact">
+                        <li class="contact">Contact Us</li>
+                    </a>
+                    <a href="#privacy">
+                        <li class="privacy">Privacy</li>
+                    </a>
+                    <a href="#terms">
+                        <li class="terms">Terms</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="sign-up-in-div">
+                <ul class="sign-up-in">
+                    <a href="Sign_Up.html" target="_blank">
+                        <li class="sign-up">
+                            <h3>Sign Up</h3>
+                        </li>
+                    </a>
+                    <a href="sign_in.html">
+                        <li class="sign-in">
+                            <h3>Sign In</h3>
+                        </li>
+                    </a>
+                </ul>
+            </div>
+            <div class="logo-image-name">
+                <ul class="logo-list">
+                    <li class="logo-img"><img src="" alt="logo" width="50" height="50" /></li>
+                    <li class="logo-name"><span>STYLEZ Designers</span></li>
+                </ul>
+            </div>
+        </header>
+
+        
+
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(app, Home)">Home</button>
+            <button class="tablinks" onclick="openTab(app, Men)">Men</button>
+            <button class="tablinks" onclick="openTab (app, Women)">Women</button>
+            <button class="tablinks" onclick="openTab (app, Collections)">Collections</button>
+            <button class="tablinks" onclick="openTab (app, Stores)">Featured Designers</button>
         </div>
-        <div>
-            <ul>
-                <a href="Sign_Up.html" target="_blank">
-                    <li>
-                        <h3>Sign_up</h3>
-                    </li>
-                </a>
-                <a href="sign_in.html">
-                    <li>
-                        <h3>Sign In</h3>
-                    </li>
-                </a>
-            </ul>
+
+        <!--Tab Content-->
+        <div id="home" class="tabcontents">
+            <p>Stylez Designers is an app made specially for the easier shopping of indigenous african clothing
+                materials
+                and designs. It features beautiful attires for various occasion from african designers, with the
+                easthetic
+                african touch. Connection between intending customer and good designers is enhanced: you don't need to
+                bother yourself about searching for a skilful designer, you can make your selection from the pool of
+                designers on this platform, hence time is highly maximized and stress reduced. </p>
         </div>
-        <img src="" alt="logo" width="200" height="200" />
-        <h2>STYLEZ Designers</h2>
-    </header>
 
-    <aside id="floatright">
-        <input type="search" placeholder="search">
-        <h3>Promos<br><br></h3>
-        <h3>Fashion Tips</h3>
-    </aside>
 
-    <ul>
-        <li>Home</li>
-        <li>Men</li>
-        <li>Women</li>
-        <li>Collections</li>
-        <li>Featured Designers</li>
-    </ul>
-    <div id="stylez">
-        <p>Stylez Designers is an app made specially for the easier shopping of indigenous african clothing materials
-            and designs. It features beautiful attires for various occasion from african designers, with the easthetic
-            african touch. Connection between intending customer and good designers is enhanced: you don't need to
-            bother yourself about searching for a skilful designer, you can make your selection from the pool of
-            designers on this platform, hence time is highly maximized and stress reduced. </p>
+
+        <div id="Men" class="tabcontent">
+            <h2>Welcome to the men section. Get ready to be thrilled.</h2>
+        </div>
+        <div id="women" class="tabcontent">
+            <h2>Welcome to the ladies section. </h2>
+        </div>
+        <div id="collection" class="tabcontent">
+            <h2> Clothings and matching accessories for different occasion. We gat you covered. </h2>
+        </div>
+        <div id="Featured Designers" class="tabcontent">
+            <h2>Meet our fantastic and very creative Disgners</h2>
+        </div>
+
     </div>
-</body>
 
 
-<body>
-    <div>
-        <p>Classic Most Requested</p>
+    <div class="pictures">
+        <aside id="floatright">
+            <input type="search" placeholder="search">
+
+            <div class="motion">
+                <h3>Promos<br><br></h3>
+                <h3>Fashion Tips</h3>
+            </div>
+        </aside>
+
+        <h2 id="classic">Classic: Most Requested Designs</h2>
+
+        <div class="gallery">
+            <a target="_blank" href="jumpsuit.jpg"><img src="jumpsuit.jpg" alt="design" width="300" height="320"></a>
+            <div class="desc">Beauty Jumpsuit by Chi Designs</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="green.jpg"><img src="green.jpg" alt="design" width="300" height="320"></a>
+            <div class="desc">Beauty Gown by Chi Designs</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="orange.jpg"><img src="orange.jpg" alt="design" width="300" height="320"></a>
+            <div class="desc">Fitted Gown by Laroche Designs</div>
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="black.jpg"><img src="black.jpg" alt="design" width="320" height="320"></a>
+            <div class="desc">Dinner Gown by Surea Fabrics</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="pink.jpg"><img src="pink.jpg" alt="design" width="300" height="300"></a>
+            <div class="desc">Dinner Gown by Surea Fabrics</div>
+
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="purple.jpg"><img src="purple.jpg" alt="design" width="300" height="300"></a>
+            <div class="desc">Dinner Gown by Surea Fabrics</div>
+
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="gown.jpg"><img src="gown.jpg" alt="design" width="300" height="300"></a>
+            <div class="desc">Dinner Gown by Surea Fabrics</div>
+
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="hand.jpg"><img src="hand.jpg" alt="design" width="300" height="320"></a>
+            <div class="desc">Dinner Gown by Surea Fabrics</div>
+
+        </div>
+
     </div>
-</body>
 
-<body>
-    <footer>
+
+
+    <footer class="foot">
         <h3 class="contact">Contact</h3>
         <p>For more information and feedback please contact us on</p>
         <strong>Phone Number</strong>:08062734797
-        <strong>Email</strong>:janeuchechukwu@gmail.com
+        <strong>Email</strong>:stylezdesigners@gmail.com
     </footer>
 </body>
 
